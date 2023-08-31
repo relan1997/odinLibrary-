@@ -1,7 +1,48 @@
+/* #FFF5E0 #FF6969 #BB2525 #141E46 */
+/* font-family: 'Caveat', cursive;
+font-family: 'PT Serif', serif; font-family: 'Rowdies', cursive; */
+
 body{
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    background-color: #FFF5E0;
+    font-family: 'Rowdies', cursive;
+}
+.flexBtn{
+    display: flex;
+    width: 100%;
+}
+#myDialog{
+    background-color:#FF6969 ;
+    border-radius: 7px;
+    box-shadow:0 5px 7px 3px #BB2525;
+    border: 0;
+    color:aliceblue;
+
+}
+#showBtn{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width:170px;
+    height:50px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    color: aliceblue;
+    font-family: 'Rowdies', cursive;
+    background-color:#141E46;
+    
+}
+#showBook{
+    border-radius:100%;
+    width:100px;
+    height: 100px;
+    font-size: 1.3rem;
+    color: aliceblue;
+    font-family: 'Rowdies', cursive;
+    background-color:#141E46;
+
 }
 label,input,button{
     margin: 10px;
@@ -10,10 +51,64 @@ label,input,button{
     display: flex;
     flex-wrap: wrap;
     gap:20px;
+    margin: 20px;
 }
 /* #flex > div{
     border: 3px solid black;
 } */
+#cnfrmBtn{
+    position: relative;
+    left:70%;
+    bottom:50px;
+}
+.btn{
+    text-align: center;
+    font-family: 'Rowdies', cursive;
+    font-weight: bolder;
+    font-size: 1rem;
+    width:80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: #BB2525;
+    border: 0;
+}
+.txt{
+    height: 20px;
+    background-color: #FF6969;
+    border: 0;
+    caret-color: aliceblue;
+    font-family: 'Rowdies', cursive;
+    color: aliceblue    ;
+}
 .boxes{
-    border: 5px solid blue;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border:5px solid #141E46;
+    background-color: aliceblue;
+}
+#heading{
+    margin-top: 5%;
+    color:#BB2525;
+    font-family: 'PT Serif';
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.boxes>button{
+    text-align: center;
+    background-color: #141E46;
+    color: aliceblue;
+    font-family: 'Rowdies', cursive;
+    border-radius: 3px;
+
+}
+#sub-heading{
+    color: #BB2525;
+    font-family: 'Caveat', cursive;
+    font-size: 1rem;
+    margin-top: 5%;
+    font-weight: bolder;
 }

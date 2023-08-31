@@ -68,8 +68,10 @@ display.addEventListener("click",()=>{
         div.setAttribute("id",i);
         let p_name=document.createElement("p");
         p_name.textContent=`${listBooks[i].title}`;
+        p_name.setAttribute("id","heading");
         let p_author=document.createElement("p");
         p_author.textContent=`By: ${listBooks[i].author}`;
+        p_author.setAttribute("id","sub-heading");
         let p_pages=document.createElement("p");
         p_pages.textContent=`Pages: ${listBooks[i].pages}`;
         let p_read=document.createElement("p");

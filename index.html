@@ -5,23 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Library</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">  
 </head>
 <body>
     <dialog id="myDialog">
         <form method="dialog">
-            <span id="heading">Enter the following details for the Book:</span>
-            <br><label id="nameBook">Name:  <input type='text' id="nameTxt" placeholder="Enter Name of The Book"></label>
-            <br><label id="nameAuthor">Author:  <input type="text" id="authorTxt" placeholder="Enter The Author"></label>
-            <br><label id="numPage">Pages: <input type="text" id="numTxt" placeholder="Enter Number Of Pages"></label>
-            <br><label id="read">Status: <input type="text" id="readTxt" placeholder="Have You Read The Book"></label>
-            <div>
-                <button value="cancel"formmethod="dialog">Cancel</button>
+            <span id="headingform">Enter the following details for the Book:</span>
+            <br><label id="nameBook">Name:  <input type='text' id="nameTxt" class="txt" ></label>
+            <br><label id="nameAuthor">Author:  <input type="text" id="authorTxt" class="txt"></label>
+            <br><label id="numPage">Pages: <input type="text" id="numTxt" class="txt" ></label>
+            <br><label id="read">Status: <input type="text" id="readTxt" class="txt"></label>
+            <br><div>
+                <button value="cancel"formmethod="dialog" class="btn">Cancel</button>
             </div>
         </form>
-        <button id="cnfrmBtn">Confirm</button>
+        <button id="cnfrmBtn" class="btn">Confirm</button>
     </dialog>
-    <button id="showBtn">Show The Dialog Box</button>
-    <button id="showBook">Display the Books In The Library</button>
+    <div class="flexBtn">
+    <button id="showBtn">Show</button>
+    <button id="showBook">Display</button>
+    </div>
     <div id="flex">
 
     </div>
