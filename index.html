@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <dialog id="myDialog">
+        <form method="dialog">
+            <span id="heading">Enter the following details for the Book:</span>
+            <br><label id="nameBook">Name:  <input type='text' id="nameTxt" placeholder="Enter Name of The Book"></label>
+            <br><label id="nameAuthor">Author:  <input type="text" id="authorTxt" placeholder="Enter The Author"></label>
+            <br><label id="numPage">Pages: <input type="text" id="numTxt" placeholder="Enter Number Of Pages"></label>
+            <br><label id="read">Status: <input type="text" id="readTxt" placeholder="Have You Read The Book"></label>
+            <div>
+                <button value="cancel"formmethod="dialog">Cancel</button>
+            </div>
+        </form>
+        <button id="cnfrmBtn">Confirm</button>
+    </dialog>
+    <button id="showBtn">Show The Dialog Box</button>
+    <button id="showBook">Display the Books In The Library</button>
+    <div id="flex">
+
+    </div>
+    <script src="./app.js" charset="UTF-8"></script>
+</body>
+</html>

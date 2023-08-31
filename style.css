@@ -1,0 +1,19 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+label,input,button{
+    margin: 10px;
+}
+#flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+/* #flex > div{
+    border: 3px solid black;
+} */
+.boxes{
+    border: 5px solid blue;
+}
